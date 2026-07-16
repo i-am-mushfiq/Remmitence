@@ -19,6 +19,7 @@ import { Badge } from "../../components/ui/Badge";
 import { SettingsRow } from "./SettingsRow";
 import { useStore } from "../../store/useStore";
 import { formatDate } from "../../lib/format";
+import { APP_VERSION } from "../../lib/version";
 
 export default function AccountHome() {
   const user = useStore((s) => s.user);
@@ -67,6 +68,8 @@ export default function AccountHome() {
         <SettingsRow icon={PlaneTakeoff} label="I'm Returning to Bangladesh Permanently" description="Start your guided closure & consolidation journey" to="/return-journey" />
         <SettingsRow icon={LogOut} label="Log Out" danger onClick={() => { signOut(); navigate("/login"); }} />
       </Card>
+
+      <p className="mt-5 text-center text-tiny font-normal text-slate-400">RemmiNext v{APP_VERSION}</p>
     </div>
   );
 }
