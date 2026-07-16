@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "dev.pages.remminext.twa",
+      "sha256_cert_fingerprints": [
+        "4D:02:66:E5:1E:6B:F3:03:D4:80:72:8E:EB:0C:07:BC:3E:4A:C9:6E:E5:01:D2:78:C5:1E:28:82:64:F0:B4:F1"
+      ]
+    }
+  }
+]

@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+app/dist/
+app/dev-dist/
+
+# Android / Gradle (regenerable build artifacts)
+android-twa/build/
+android-twa/app/build/
+android-twa/.gradle/
+android-twa/local.properties
+android-twa/*.keystore
+android-twa/driver-stdout.log
+android-twa/bubblewrap-session.log
+android-twa/gradle-build.log
+
+# Claude Code local-only settings
+.claude/settings.local.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.log
